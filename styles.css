@@ -11,11 +11,41 @@ body {
     padding: 5px;
     line-height: normal;
     color: rgb(224, 224, 224);
-    background-color: rgb(45, 45, 45);
+    background-color: white;
 }
 
+#container {
+    width: 700px;
+    margin: 0 auto;
+    background: rgb(45, 45, 45);
+    padding: 30px;
+    border-left: double black 5px;
+    border-right: double black 5px;
+}
+
+a:link {
+    font-weight: bold;
+    color: rgba(87, 87, 202, 0.954);
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(87, 87, 202, 0.954);
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+a:active {
+    color: rgb(0, 255, 0);
+}
+
+#pic2 {
+    float: right;
+}
 .text {
-    line-height: 1.5em;
+    line-height: 2.2em;
 }
 
 #title {
@@ -27,13 +57,12 @@ h1, h2, h3 {
 }
 
 h3 {
+    border-left: solid rgb(0, 255, 0) 15px;
+    padding: 10px;
+    border-radius: 5px;
     clear: both;
 }
 
 p span {
-    color: rgba(87, 87, 202, 0.954);
-}
-
-a {
     color: rgba(87, 87, 202, 0.954);
 }
