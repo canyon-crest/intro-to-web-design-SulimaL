@@ -25,12 +25,12 @@ body {
 
 a:link {
     font-weight: bold;
-    color: rgba(87, 87, 202, 0.954);
+    color: rgb(0, 255, 0);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgba(96, 72, 184, 0.954);
+    color: rgb(0, 164, 3);
 }
 
 a:hover {
