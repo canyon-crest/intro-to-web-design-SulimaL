@@ -19,10 +19,10 @@ body {
     margin: 0 auto;
     background: rgb(45, 45, 45);
     padding: 30px;
-    border-left: double black 5px;
-    border-right: double black 5px;
-    border-top: double black 5px;
-    border-bottom: double black 5px;
+    border-left: double rgb(13, 255, 0) 5px;
+    border-right: double rgb(34, 255, 0) 5px;
+    border-top: double rgb(77, 255, 0) 5px;
+    border-bottom: double rgb(9, 255, 0) 5px;
 }
 
 a:link {
