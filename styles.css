@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 img {
     width: 300px;
     float: left;
@@ -8,24 +14,20 @@ img {
 
 body {
     font-family: 'Courier New', Courier, monospace;
-    padding: 5px;
+    padding: 0;
     line-height: normal;
     color: rgb(224, 224, 224);
-    background-color: rgba(255, 255, 255, 0.158);
+    background-color: rgba(45, 45, 45);
 }
 
 #container {
-    .layout{
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 20px;
-    }
-    padding: 24px 16px;
-    background: rgb(45, 45, 45);
-    border-left: double rgb(13, 255, 0) 5px;
-    border-right: double rgb(34, 255, 0) 5px;
-    border-top: double rgb(77, 255, 0) 5px;
-    border-bottom: double rgb(9, 255, 0) 5px;
+padding: 24px 16px;
+width: 100%;
+background: rgb(45, 45, 45);
+border-left: double rgb(13, 255, 0) 5px;
+border-right: double rgb(34, 255, 0) 5px;
+border-top: double rgb(77, 255, 0) 5px;
+border-bottom: double rgb(9, 255, 0) 5px;
 }
 
 a:link {
@@ -82,7 +84,7 @@ p span {
     background-color: rgba(211, 211, 211, 0.582);
     border: solid rgb(0,255,0) 3px;
     padding: 20px;
-    width: 100px;
+    width: 110px;
     float: right;
     color: rgb(0, 0, 0);
     margin-left: 20px;
@@ -98,7 +100,7 @@ p span {
 
 @media (max-width: 1200px) {
     #container {
-        width: 900px;
+        width: 100%;
         margin:0 auto;
     }
 }
