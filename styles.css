@@ -11,7 +11,7 @@ body {
     padding: 5px;
     line-height: normal;
     color: rgb(224, 224, 224);
-    background-color: rgba(255, 255, 255, 0.295);
+    background-color: rgba(255, 255, 255, 0.158);
 }
 
 #container {
@@ -56,8 +56,8 @@ a:active {
 
 #title {
     line-height: normal;
-    background-color: rgba(211, 211, 211, 0.553);
-    color: black;
+    background-color: rgba(211, 211, 211, 0.082);
+    color: rgb(255, 255, 255);
     text-align: center;
     border: solid 3px rgb(0, 255, 0);
     border-radius: 9px;
@@ -79,12 +79,12 @@ p span {
 }
 
 #sidebar {
-    background-color: rgba(211, 211, 211, 0.553);
+    background-color: rgba(211, 211, 211, 0.582);
     border: solid rgb(0,255,0) 3px;
     padding: 20px;
     width: 100px;
     float: right;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-left: 20px;
     margin-bottom: 20px;
 }
