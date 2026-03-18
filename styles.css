@@ -37,6 +37,7 @@ a:visited {
 
 a:hover {
     text-decoration:underline;
+    color: red
 }
 
 a:active {
