@@ -10,15 +10,18 @@ body {
     font-family: 'Courier New', Courier, monospace;
     padding: 5px;
     line-height: normal;
-    color: rgb(224, 224, 224);
+    color: rgb(0, 0, 0);
     background-color: rgba(255, 255, 255, 0.295);
 }
 
 #container {
-    width: 100%;
-    margin: 0 auto;
+    .layout{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+    padding: 24px 16px;
     background: rgb(45, 45, 45);
-    padding: 30px;
     border-left: double rgb(13, 255, 0) 5px;
     border-right: double rgb(34, 255, 0) 5px;
     border-top: double rgb(77, 255, 0) 5px;
@@ -53,7 +56,7 @@ a:active {
 
 #title {
     line-height: normal;
-    background-color: lightgrey;
+    background-color: rgba(211, 211, 211, 0.553);
     color: black;
     text-align: center;
     border: solid 3px rgb(0, 255, 0);
@@ -76,7 +79,7 @@ p span {
 }
 
 #sidebar {
-    background-color: lightgray;
+    background-color: rgba(211, 211, 211, 0.553);
     border: solid rgb(0,255,0) 3px;
     padding: 20px;
     width: 100px;
@@ -95,14 +98,15 @@ p span {
 
 @media (max-width: 1200px) {
     #container {
-        width: 700px;
+        width: 900px;
+        margin:0 auto;
     }
 }
 
 @media (max-width: 992px){
     #container {
         width: 100%;
-        margin: 0;
+        margin: 0 auto;
         padding: 0;
         border: none;
     }
