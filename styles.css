@@ -11,7 +11,7 @@ body {
     padding: 5px;
     line-height: normal;
     color: rgb(224, 224, 224);
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.295);
 }
 
 #container {
